@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+label{
+    font-size: 1.5rem;
+}
+.input input{
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    border: 0.5px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(176, 176, 176);
+}
+.result-img
+{
+    margin-top: 50px;
+}
+.result-img img
+{
+    width: 400px;
+}
+.result-img p
+{
+    font-size: 1.5rem;
+}
